@@ -7,7 +7,7 @@ class Trie {
   }
 
   insert(word) {
-    let letters = word.split('');
+    let letters = word.toLowerCase().split('');
     let currentNode = this.root;
 
     while (letters.length) {
@@ -28,7 +28,7 @@ class Trie {
 
   traverseDown(word) {
     // Split the word into an array so we can traverse down to the last letter
-    let letters = word.split('');
+    let letters = word.toLowerCase().split('');
 
     // Start our traversal at the root node
     let currentNode = this.root;
