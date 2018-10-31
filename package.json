@@ -1,6 +1,6 @@
 {
   "name": "@jake.lauer27/autocomplete",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Prefix Tree for Autocomplete",
   "main": "index.js",
   "scripts": {
