@@ -1,0 +1,19 @@
+{
+  "name": "@jake.lauer27/autocomplete",
+  "version": "1.1.0",
+  "description": "Prefix Tree for Autocomplete",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakelauer27/autocomplete.git"
+  },
+  "author": "Jake Lauer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakelauer27/autocomplete/issues"
+  },
+  "homepage": "https://github.com/jakelauer27/autocomplete#readme"
+}
